@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Analysis</title>
+    <!-- Include necessary stylesheets and scripts -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Stock Market Analysis</h1>
+        </header>
+        <main class="mainContainer">
+            <section class="chartAndDetails">
+                <div class="chartContainer">
+                    <!-- <h2>Stock Price Chart</h2> -->
+                    <div id="chart">
+                        
+                    </div>
+                    <div id="timeStamp">
+
+                    </div>
+                </div>
+                <div class="detailsContainer">
+                    <!-- <h2>Stock Details</h2> -->
+                    <div id="stockDetails"></div>
+                </div>
+            </section>
+            <section class="listContainer">
+                <h2>Stock List</h2>
+                <ul id="stockList">
+                    
+                </ul>
+            </section>
+
+    </div>
+    
+    <script type="module" defer src="listModule.js"></script>
+    <script type="module" defer src="chartModule.js"></script>
+    <!-- <script type="module" defer src="detailsModule.js"></script> -->
+</body>
+
+</html>
